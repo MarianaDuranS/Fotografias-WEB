@@ -2,20 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 :root {
-    --bg-primary: #0f0f12;
-    --bg-secondary: #1a1a20;
-    --bg-tertiary: #24242c;
-    --accent: #d4a574;
-    --accent-hover: #e6b987;
-    --text-primary: #f5f5f5;
-    --text-secondary: #b0b0b8;
-    --text-muted: #6c6c78;
-    --border: #2e2e38;
-    --shadow: 0 4px 20px rgba(0,0,0,0.4);
+    --bg-primary: #1e3a5f;
+    --bg-secondary: #2c4a6f;
+    --bg-tertiary: #3a5a8a;
+    --accent: #ffd700;
+    --accent-hover: #ffe066;
+    --text-primary: #f0f4f8;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --border: #4a6a8a;
+    --shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 
 body {
@@ -157,8 +157,7 @@ a:hover { color: var(--accent-hover); }
     align-items: center;
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(135deg, rgba(15,15,18,0.85), rgba(15,15,18,0.95)),
-                url('https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1600') center/cover;
+    background: var(--bg-primary);
 }
 
 .hero h1 {
